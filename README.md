@@ -1,3 +1,6 @@
+![SendMorseCode Logo](SendMorseCode_logo-200px.png)
+
+
 # SoX Morse Code Generator & Transmitter
 
 A lightweight Bash script that converts any text string—including punctuation, numbers, and custom newlines (`\n`)—into a clean Morse code audio stream using **SoX (Sound eXchange)**. 
