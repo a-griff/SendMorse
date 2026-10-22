@@ -6,7 +6,7 @@ Featuring strict ITU 1:3:7 timing and clickless audio envelope shaping for cryst
 
 ---
 
-## ✨ Features
+## Features
 
 - **Punctuation & Numbers:** Supports standard letters (A-Z), numbers (0-9), and common punctuation (`.`, `,`, `?`, `/`, `-`, `!`).
 - **Custom Newline Escape (`\n`):** Automatically interprets `\n` as the standard Morse code prosign **AA** (`.-.-`).
@@ -16,7 +16,15 @@ Featuring strict ITU 1:3:7 timing and clickless audio envelope shaping for cryst
 
 ---
 
-## 📋 Prerequisites
+## Useage
+
+
+`SendMorseCode.sh "Message to send"`
+
+`SendMorseCode.sh "Message to send\nwith a new line"`
+
+
+## Prerequisites
 
 You need **SoX** installed on your system to generate and play the audio files.
 
@@ -25,7 +33,7 @@ You need **SoX** installed on your system to generate and play the audio files.
 * **Slackware:**
   Using `slackpkg`:
   ```bash
-  slackpkg install sox
+  sudo slackpkg install sox
   
 * **Ubuntu / Debian / Mint:**
   ```bash
